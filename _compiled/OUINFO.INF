@@ -1,0 +1,815 @@
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_CONTENT\B_LIESELMAEH.D }
+SYMBOL { 	AI_Output (self ,other,"DIA_Liesel_15_00");	//Määäh! }
+LINE   { 3 }
+FILEPOS{ 30 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_CONTENT\B_IRRLICHTBEEP.D }
+SYMBOL { 	AI_Output (self ,other,"DIA_Wisp_15_00"); //(summ) }
+LINE   { 3 }
+FILEPOS{ 32 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(other, self, "DIA_Addon_Myxir_TeachRequest_15_00"); //Lehre mich die fremde Sprache. }
+LINE   { 6 }
+FILEPOS{ 234 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL1_12_00"); //Fangen wir erst einmal einfach an. Ich kann dich zu Anfang die Sprache der Bauern lehren. }
+LINE   { 11 }
+FILEPOS{ 382 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL1_12_01"); //Texte, die in der Sprache der Bauern geschrieben sind, handeln in der Regel von weltlichen Belangen, wie Arbeit, Liebe oder die Beschaffung von Lebensmitteln. }
+LINE   { 12 }
+FILEPOS{ 534 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL1_12_02"); //Es war die gemeine Sprache der Stadt. Die meisten Texte, die man hier findet, wirst du damit verstehen können. }
+LINE   { 13 }
+FILEPOS{ 755 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL2_12_00"); //Die Sprache der Bauern kennst du ja bereits. Die Sprache der Krieger ist schon etwas schwieriger. }
+LINE   { 18 }
+FILEPOS{ 977 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL2_12_01"); //Texte, die in der Sprache der Krieger geschrieben wurden, handeln meistens von Waffen und dem Krieg. Du wirst einige für dich nützliche Dinge dort erfahren. }
+LINE   { 19 }
+FILEPOS{ 1137 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL3_12_00"); //Die hohe Sprache der Priester ist wahrhaftig sehr schwer zu verstehen. Aber ich kann sie dir gerne zeigen. }
+LINE   { 24 }
+FILEPOS{ 1405 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL3_12_01"); //In der Sprache der Priester sind vor allem heilige Schriften verfasst, die die Geschichte und Magie der Erbauer erklären. }
+LINE   { 25 }
+FILEPOS{ 1574 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_TeachL3_12_02"); //Jeder dieser Texte ist eine wahre Kostbarkeit, wenn man ihren Sinn versteht. }
+LINE   { 26 }
+FILEPOS{ 1758 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output 	(self, other,"DIA_Addon_Myxir_TeachNoMore_12_00"); //Es gibt nichts mehr, was ich dir noch zeigen könnte. Du beherrschst jetzt die Sprache der Erbauer. }
+LINE   { 31 }
+FILEPOS{ 1950 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_MYXIR_TEACHREQUEST.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Myxir_Teach_LANGUAGE_X_12_00"); //Geh hin und erprobe dein neues Wissen. Du wirst sehen, dass die Schriften der Erbauer nicht länger ein unlösbares Rätsel für dich sind. }
+LINE   { 36 }
+FILEPOS{ 2173 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_RIORDIAN_TEACHWISP.D }
+SYMBOL { 	AI_Output	(other, self, "DIA_Addon_Riordian_Teach_15_00"); //Zeig mir, wie ich mein Irrlicht unterrichte. }
+LINE   { 7 }
+FILEPOS{ 213 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_RIORDIAN_TEACHWISP.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Riordian_Teach_WISPSKILL_X_10_00"); //Nun kann dein Irrlicht schon einige Dinge mehr finden, die dir nützen. }
+LINE   { 11 }
+FILEPOS{ 388 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_RIORDIAN_TEACHWISP.D }
+SYMBOL { 	AI_Output 	(self, other, "DIA_Addon_Riordian_Teach1_10_00"); //Dein Irrlicht sucht nun nach allen Gegenständen, die sich zu finden lohnen. Ich kann dir nichts mehr zeigen. }
+LINE   { 15 }
+FILEPOS{ 589 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_RIORDIAN_TEACHWISP.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Riordian_Teach2_10_00"); //Wonach soll dein Irrlicht denn suchen? }
+LINE   { 19 }
+FILEPOS{ 818 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 	AI_Output (self ,self,"DIA_Herold_Announce_04_00"); //Hört, ihr Bewohner von Khorinis! Auf ausdrückliche Anordnung des ehrenwerten Lord Hagens ergeht folgender Erlass. }
+LINE   { 20 }
+FILEPOS{ 381 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_01"); //Aufgrund der allgemeinen Lage zu eurem eigenen Schutz sind die Wälder und Wildnis in der Umgebung der Stadt zu meiden! }
+LINE   { 27 }
+FILEPOS{ 629 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_02"); //Des weiteren ist jeglicher Kontakt zu den aufständischen Bauernschaften in den umliegenden Gebieten strengstens untersagt. }
+LINE   { 28 }
+FILEPOS{ 806 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_03"); //Ab sofort wird Lord Andre den Oberbefehl für unsere Miliz übernehmen. }
+LINE   { 32 }
+FILEPOS{ 1021 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_04"); //Alle Bürger dieser Stadt, die über kämpferische Fähigkeiten verfügen, werden hiermit angehalten, der königlichen Miliz beizutreten. }
+LINE   { 33 }
+FILEPOS{ 1149 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_05"); //Die Sicherheitsmaßnahmen zum Schutz des oberen Viertels werden noch weiter verstärkt. }
+LINE   { 37 }
+FILEPOS{ 1373 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_06"); //Die Torwachen sind angewiesen, das Gesetz in aller Strenge auszulegen, um unerlaubtes Eindringen zu verhindern. }
+LINE   { 38 }
+FILEPOS{ 1517 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_07"); //In allen Städten und Landstrichen des Reiches ist ab sofort das Kriegsrecht ausgerufen. }
+LINE   { 42 }
+FILEPOS{ 1721 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_08"); //Alle bürgerlichen Richter haben mit sofortiger Wirkung ihre Aufgaben an die königlichen Paladine zu übertragen. }
+LINE   { 43 }
+FILEPOS{ 1867 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_09"); //Der ehrenwerte Lord Andre ist angewiesen worden, jegliches Vergehen oder Widerstand gegen die Garde des Königs aufs Schwerste zu bestrafen. }
+LINE   { 44 }
+FILEPOS{ 2037 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_10"); //Jeder Bewohner von Khorinis, der sich eines Verbrechens schuldig macht, hat sich umgehend bei Lord Andre zu melden. }
+LINE   { 45 }
+FILEPOS{ 2235 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_11"); //Jeder Bewohner der Stadt hat sich auf Grund der drohenden Gefahr eines Orkangriffs entsprechend vorzubereiten. }
+LINE   { 49 }
+FILEPOS{ 2427 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_12"); //Jeder hat sich ab sofort in den Fertigkeiten des Kampfes zu üben und sich angemessen zu bewaffnen. }
+LINE   { 50 }
+FILEPOS{ 2596 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_13"); //Der Söldnerschmied Bennet, der den Paladin Lothar heimtückisch ermordet hat, ist im Namen Innos' verurteilt worden. }
+LINE   { 57 }
+FILEPOS{ 2837 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_14"); //Das Urteil lautet Tod durch den Strick. Die Vollstreckung erfolgt in wenigen Tagen. }
+LINE   { 58 }
+FILEPOS{ 3011 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_15"); //Der Schmied Bennet wird freigesprochen, da seine Unschuld von einem klugen Berater Lord Hagens bewiesen wurde. }
+LINE   { 62 }
+FILEPOS{ 3171 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_16"); //Den aufkommenden Gerüchten über das Erscheinen von Drachen im Minental von Khorinis ist kein Glaube zu schenken. }
+LINE   { 67 }
+FILEPOS{ 3380 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_17"); //Die Gerüchte sind vom Feind gestreut worden, um das tapfere Volk von Myrtana in Angst und Schrecken zu versetzen. }
+LINE   { 68 }
+FILEPOS{ 3551 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_18"); //Um die lächerlichen Behauptungen zu widerlegen, ist ein Trupp tapferer Paladine unter dem Befehl eines Ortskundigen ins Minental aufgebrochen. }
+LINE   { 69 }
+FILEPOS{ 3723 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_19"); //Die Drachen, die das Land bedrohten, wurden von tapferen Männern unter dem Befehl von Lord Hagen besiegt. }
+LINE   { 76 }
+FILEPOS{ 4002 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_20"); //Bald wird auch König Rohbar das Land von den Orks befreit haben und das Königreich wird in neuem Glanz aufblühen! }
+LINE   { 77 }
+FILEPOS{ 4166 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_21"); //Lord Andre erhält mit sofortiger Wirkung den Oberbefehl über die Stadt Khorinis. }
+LINE   { 81 }
+FILEPOS{ 4356 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ANNOUNCE_HEROLD.D }
+SYMBOL { 			AI_Output (self ,self,"DIA_Herold_Announce_04_22"); //Lord Hagen hat verkündet, nun selbst ins Minental zu ziehen, um dafür zu sorgen, dass sein Schiff mit dem magischen Erz beladen werden kann. }
+LINE   { 82 }
+FILEPOS{ 4495 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_00"); //Aber das Licht war eine Qual für Beliar. Und alles, was Innos erschuf, wurde von Beliar zerstört. }
+LINE   { 9 }
+FILEPOS{ 130 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_01"); //Adanos aber sah, dass so nichts sein konnte. Kein Licht und keine Dunkelheit. }
+LINE   { 13 }
+FILEPOS{ 313 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_02"); //Und so stellte er sich zwischen seine Brüder, um ihren Streit zu schlichten. Und es gelang ihm nicht. }
+LINE   { 17 }
+FILEPOS{ 474 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_03"); //Aber dort, wo Adanos stand, ward ein Ort, an dem Innos und Beliar keine Macht hatten. }
+LINE   { 21 }
+FILEPOS{ 659 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_04"); //Und an diesem Ort waren Ordnung und Chaos zugleich. Und so ward das Meer erschaffen. }
+LINE   { 25 }
+FILEPOS{ 828 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_05"); //Und das Meer gab das Land frei. Und es entstanden alle Wesen. Bäume wie Tiere. Wölfe wie Schafe. Und zuletzt entstand der Mensch. }
+LINE   { 29 }
+FILEPOS{ 996 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_06"); //Und Adanos gefiel, was entstanden war. Und er erfreute sich an allen Wesen gleichermaßen. }
+LINE   { 33 }
+FILEPOS{ 1209 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_07"); //Aber so groß war der Zorn Beliars, dass er über das Land kam und das Tier erwählte. Und Beliar sprach zu ihm. Und das Tier ward ihm Untertan. }
+LINE   { 37 }
+FILEPOS{ 1382 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_08"); //Und Beliar verlieh ihm einen Teil seiner göttlichen Macht, auf dass es das Land zerstöre. }
+LINE   { 41 }
+FILEPOS{ 1607 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_09"); //Aber Innos sah, was geschehen war. Und auch er betrat das Land und er erwählte den Menschen. Und Innos sprach zu ihm. Und der Mensch ward ihm Untertan. }
+LINE   { 45 }
+FILEPOS{ 1781 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_10"); //Und Innos verlieh ihm einen Teil seiner göttlichen Macht, auf dass er dem Wirken Beliars Einhalt gebiete. }
+LINE   { 49 }
+FILEPOS{ 2018 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_11"); //Und Beliar sprach zu einem weiteren Wesen. Aber Adanos ließ die Flut kommen, und das Wesen wurde fortgespült von der Erde. }
+LINE   { 53 }
+FILEPOS{ 2209 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_12"); //Aber mit ihm fortgespült wurden Bäume und Tiere. Und Adanos überkam eine tiefe Trauer. }
+LINE   { 57 }
+FILEPOS{ 2417 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_13"); //Und so sprach Adanos zu seinen Brüdern: Nie mehr sollt ihr mein Land betreten. Denn es ist heilig. Und so soll es sein. }
+LINE   { 61 }
+FILEPOS{ 2589 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_14"); //Aber der Mensch und das Tier führten Krieg auf dem Land Adanos'. Und der Zorn der Götter war mit ihnen. }
+LINE   { 65 }
+FILEPOS{ 2794 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_15"); //Und der Mensch erschlug das Tier und es ging ein in Beliars Reich. }
+LINE   { 69 }
+FILEPOS{ 2983 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_16"); //Adanos aber sah, dass nun Ordnung und Chaos ungleich waren und er bat Innos, dem Menschen seine göttliche Macht zu nehmen. }
+LINE   { 73 }
+FILEPOS{ 3135 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_17"); //Und Innos, in seiner Weisheit, tat es. }
+LINE   { 77 }
+FILEPOS{ 3343 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_18"); //Aber Adanos fürchtete sich vor dem Tag, an dem das Tier auf das Land zurückkehren würde. }
+LINE   { 81 }
+FILEPOS{ 3467 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_19"); //Und so bat er Innos, jenen Teil seiner Macht in seinem Reiche zu belassen, auf dass er sie dem Menschen wiedergebe, falls das Tier zurückkehren sollte. }
+LINE   { 85 }
+FILEPOS{ 3641 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_PREACH_VATRAS.D }
+SYMBOL { 		AI_Output (self, self, "DIA_Vatras_PREACH_05_20"); //Und Innos, in seiner Weisheit, tat es. }
+LINE   { 89 }
+FILEPOS{ 3878 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_15_00"); //Kannst du mir helfen, mich hier zurechtzufinden? }
+LINE   { 58 }
+FILEPOS{ 1546 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_BACK_15_00"); //Danke - das war alles, was ich wissen wollte! }
+LINE   { 97 }
+FILEPOS{ 2696 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_UNTERSTADT_15_00"); //Wie komme ich in die Unterstadt? }
+LINE   { 103 }
+FILEPOS{ 2885 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_OBERSTADT_15_00"); //Wie komme ich ins obere Viertel? }
+LINE   { 139 }
+FILEPOS{ 4665 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_TEMPEL_15_00"); //Ich suche den Tempel. }
+LINE   { 180 }
+FILEPOS{ 7266 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_MARKT_15_00"); //Wo ist der Marktplatz? }
+LINE   { 215 }
+FILEPOS{ 8909 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_GALGEN_15_00"); //Wie komme ich zum Galgenplatz? }
+LINE   { 252 }
+FILEPOS{ 10848 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_KASERNE_15_00"); //Wo ist die Kaserne? }
+LINE   { 289 }
+FILEPOS{ 12800 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ASSIGNCITYGUIDE.D }
+SYMBOL { 	AI_Output (other, self, "DIA_CITYGUIDE_HAFEN_15_00"); //Wo ist das Hafenviertel? }
+LINE   { 330 }
+FILEPOS{ 15218 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_ADDON_GIVEPOTION.D }
+SYMBOL { 	AI_Output (other,self ,"DIA_Addon_Brandon_GivePotion_15_00"); //Hier, nimm den Heiltrank. }
+LINE   { 48 }
+FILEPOS{ 1444 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Hallo_15_00"); //Hello, are you Werner, the Werner who posted that bill? }
+LINE   { 44 }
+FILEPOS{ 1090 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Werner_Hallo_03_00"); //Maybe it was Innos himself who showed you my name, right above my head, are you blind or something?! By the way, and your name is...? }
+LINE   { 45 }
+FILEPOS{ 1201 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Hallo_15_01"); //I'm Roland. You're looking worried, is something wrong? }
+LINE   { 46 }
+FILEPOS{ 1390 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Werner_Hallo_03_01"); //Beer. }
+LINE   { 47 }
+FILEPOS{ 1501 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Hallo_15_02"); //What? }
+LINE   { 48 }
+FILEPOS{ 1562 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Werner_Hallo_03_02"); //Beer. How hard is it to understand a four-letter word? Beer, i need a beer. }
+LINE   { 49 }
+FILEPOS{ 1623 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Hallo_15_03"); //Ah, OK, a beer. B.E.E.R., beer, got it. Well, i will see what i can do for you. }
+LINE   { 50 }
+FILEPOS{ 1754 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Beer_15_00"); //Look what i've got here! }
+LINE   { 97 }
+FILEPOS{ 2795 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Werner_Beer_03_00"); //You mean you got a beer for me, and not drunk it for yourself?! Respect for your self-disziplin!  }
+LINE   { 98 }
+FILEPOS{ 2874 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Werner_Beer_15_01"); //No Problem, here you go. }
+LINE   { 99 }
+FILEPOS{ 3026 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_WERNER.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Werner_Beer_03_01"); //Wow, thank you very much. }
+LINE   { 105 }
+FILEPOS{ 3165 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Hallo_15_00"); //Hey, who are you? }
+LINE   { 44 }
+FILEPOS{ 1016 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Zak_Hallo_03_00"); //Just call me Zak, and your name is...? }
+LINE   { 45 }
+FILEPOS{ 1086 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Hallo_15_01"); //I'm Roland. You're looking worried, is something wrong? }
+LINE   { 46 }
+FILEPOS{ 1177 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Zak_Hallo_03_01"); //Beer. }
+LINE   { 47 }
+FILEPOS{ 1285 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Hallo_15_02"); //What? }
+LINE   { 48 }
+FILEPOS{ 1343 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Zak_Hallo_03_02"); //Beer. How hard is it to understand a four-letter word? Beer, i need a beer. }
+LINE   { 49 }
+FILEPOS{ 1401 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Hallo_15_03"); //Ah, OK, a beer. B.E.E.R., beer, got it. Well, i will see what i can do for you. }
+LINE   { 50 }
+FILEPOS{ 1529 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Beer_15_00"); //Look what i've got here! }
+LINE   { 95 }
+FILEPOS{ 2507 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Zak_Beer_03_00"); //You mean you got a beer for me, and not drunk it for yourself?! Respect for your self-disziplin!  }
+LINE   { 96 }
+FILEPOS{ 2583 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (other, self, "DIA_Zak_Beer_15_01"); //No Problem, here you go. }
+LINE   { 97 }
+FILEPOS{ 2732 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\DIALOGE\DIA_ZAK.D }
+SYMBOL { 	AI_Output (self, other, "DIA_Zak_Beer_03_01"); //Wow, thank you very much. }
+LINE   { 103 }
+FILEPOS{ 2868 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_LIESEL.D }
+SYMBOL { 	AI_Output (other, self,"DIA_Liesel_Hallo_15_00"); //Hallo ... (räuspert sich) ... Schaf. }
+LINE   { 41 }
+FILEPOS{ 1012 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_LIESEL.D }
+SYMBOL { 	AI_Output (other, self,"DIA_Liesel_KommMit_15_00");	//Komm mit! }
+LINE   { 68 }
+FILEPOS{ 1766 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_LIESEL.D }
+SYMBOL { 	AI_Output (other, self,"DIA_Liesel_WarteHier_15_00");	//Warte hier! }
+LINE   { 98 }
+FILEPOS{ 2579 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_00"); //Ein einzelner Gefangener hatte das Schicksal von hunderten geändert. }
+LINE   { 8 }
+FILEPOS{ 165 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_01"); //Aber er zahlte dafür einen hohen Preis... }
+LINE   { 9 }
+FILEPOS{ 292 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_02"); //Er hatte den Schläfer besiegt, die Barriere zerstört... }
+LINE   { 10 }
+FILEPOS{ 392 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_03"); //...doch während alle anderen Gefangenen entkamen, blieb er in den Trümmern zurück... }
+LINE   { 11 }
+FILEPOS{ 506 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_04"); //Ich war es, der ihn gegen den Schläfer endsandte. }
+LINE   { 12 }
+FILEPOS{ 649 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_05"); //Ich bin es jetzt, der ihn von dort zurückholt. }
+LINE   { 13 }
+FILEPOS{ 757 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_06"); //Er ist schwach, und er hat vieles vergessen. }
+LINE   { 14 }
+FILEPOS{ 862 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_07"); //Aber er ist am leben... }
+LINE   { 15 }
+FILEPOS{ 965 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_Xardas_Speech_14_08"); //Er ist - zurück! }
+LINE   { 16 }
+FILEPOS{ 1047 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_DiegoGorn_12_00"); //Natürlich ist er noch am Leben. Was glaubst du denn? }
+LINE   { 19 }
+FILEPOS{ 1155 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_DiegoGorn_11_01"); //Wollen wir es hoffen... }
+LINE   { 20 }
+FILEPOS{ 1262 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_DiegoGorn_12_02"); //Spürst du das? }
+LINE   { 21 }
+FILEPOS{ 1340 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_DiegoGorn_11_03"); //Was? }
+LINE   { 22 }
+FILEPOS{ 1409 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "INTRO_DiegoGorn_12_04"); //Der Boden... }
+LINE   { 23 }
+FILEPOS{ 1468 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "Extro_Tempel_15_01"); //(verwundert) Xardas! Was ... }
+LINE   { 27 }
+FILEPOS{ 1566 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "Extro_Tempel_14_02"); //(murrt) Jetzt nicht... }
+LINE   { 28 }
+FILEPOS{ 1646 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "Extro_Tempel_14_03"); //(schreit fanatisch) Ich bin bereit... erwähle mich! Jaaa... }
+LINE   { 29 }
+FILEPOS{ 1720 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "Extro_Tempel_15_04"); //(zu sich selbst) Wo ist er hin? }
+LINE   { 30 }
+FILEPOS{ 1831 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_00"); //(zitiert) Und der Mensch erschlug das Tier und es ging ein in Beliars Reich... }
+LINE   { 33 }
+FILEPOS{ 1942 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Xardas_15_01"); //Xardas! Was genau ist im Tempel von Irdorath passiert? }
+LINE   { 34 }
+FILEPOS{ 2072 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_02"); //Du hast mit Innos Hilfe den Avatar des Bösen besiegt. }
+LINE   { 35 }
+FILEPOS{ 2178 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_03"); //Und ich habe seine Macht in mir aufgenommen... }
+LINE   { 36 }
+FILEPOS{ 2283 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_04"); //Seit ich den Kreis des Feuers verlassen habe, hatte ich nur dieses eine Ziel. }
+LINE   { 37 }
+FILEPOS{ 2381 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_05"); //Um es zu erreichen habe ich dir geholfen, deine Bestimmung zu erfüllen. }
+LINE   { 38 }
+FILEPOS{ 2510 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_06"); //Was mir im Tempel des Schläfers verwehrt blieb, ist nun endlich geschehen. }
+LINE   { 39 }
+FILEPOS{ 2633 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_07"); //Beliar hat mich erwählt. }
+LINE   { 40 }
+FILEPOS{ 2759 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Xardas_15_08"); //Dann gehorchst du jetzt dem Gott der Finsternis? }
+LINE   { 41 }
+FILEPOS{ 2835 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_09"); //Nein. Ich gehorche genauso wenig Beliar, wie du Innos gehorchst! }
+LINE   { 42 }
+FILEPOS{ 2935 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_10"); //Nicht einmal die Götter wissen, was das Schicksal für uns bereit hält... }
+LINE   { 43 }
+FILEPOS{ 3051 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_11"); //Und ich beginne gerade erst zu begreifen, welche Möglichkeiten sich mir eröffnen... }
+LINE   { 44 }
+FILEPOS{ 3175 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_14_12"); //Aber eins steht fest. Wir WERDEN uns wiedersehen... }
+LINE   { 45 }
+FILEPOS{ 3310 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Xardas_04_00"); //(ruft) Wir legen ab! }
+LINE   { 48 }
+FILEPOS{ 3456 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_Drachen_04_00"); //(Späht in die Ferne, sieht was) hmmm? }
+LINE   { 51 }
+FILEPOS{ 3565 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_Drachen_04_01"); //(murmelt) Oh, Scheiße! }
+LINE   { 52 }
+FILEPOS{ 3658 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_Drachen_04_02"); //(gequältes Husten, Würgen) - (diverse) }
+LINE   { 53 }
+FILEPOS{ 3736 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_Drachen_04_03"); //Aaaargh! (diverse) }
+LINE   { 54 }
+FILEPOS{ 3830 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_Drachen_04_04"); //(Langezogener Todesschrei, 4 Sekunden) }
+LINE   { 55 }
+FILEPOS{ 3904 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_OrcSturm_04_00"); //Schließt das Tor!!! (diverse) }
+LINE   { 58 }
+FILEPOS{ 4029 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_OrcSturm_04_01"); //Haltet sie auf!!! (diverse) }
+LINE   { 59 }
+FILEPOS{ 4115 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "Cutscene_OrcSturm_04_02"); //Aaaargh! (diverse) }
+LINE   { 60 }
+FILEPOS{ 4199 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_12_00"); //Wir sind überladen. Wir müssen was von dem Gold über Bord werfen. }
+LINE   { 63 }
+FILEPOS{ 4310 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_01"); //Finger weg von dem Gold! }
+LINE   { 64 }
+FILEPOS{ 4427 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_12_02"); //Hör zu, es wäre wirklich besser, wenn wir... }
+LINE   { 65 }
+FILEPOS{ 4503 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_03"); //Ich will nichts mehr davon hören... }
+LINE   { 66 }
+FILEPOS{ 4599 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_11_04"); //Ich habe gehört, der Krieg mit den Orks steht schlecht... }
+LINE   { 67 }
+FILEPOS{ 4686 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_05"); //Und? }
+LINE   { 68 }
+FILEPOS{ 4795 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_11_06"); //Wir werden das ganze Gold vermutlich nirgendwo ausgeben können... }
+LINE   { 69 }
+FILEPOS{ 4851 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_07"); //Das Gold bleibt an Bord! }
+LINE   { 70 }
+FILEPOS{ 4968 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_12_08"); //Was nützt uns das Gold, wenn wir beim kleinsten Sturm kentern? }
+LINE   { 71 }
+FILEPOS{ 5044 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_09"); //Ich sehe aber keinen Sturm... }
+LINE   { 72 }
+FILEPOS{ 5158 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (self, other, "OUTRO_Schiff_12_10"); //NOCH nicht... }
+LINE   { 73 }
+FILEPOS{ 5239 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output (other, self, "OUTRO_Schiff_15_11"); //Entspann dich! Alles wird gut! }
+LINE   { 74 }
+FILEPOS{ 5304 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(other, self, "DIA_Addon_AddonIntro_15_00"); //(erstaunt) ... Menschen? }
+LINE   { 77 }
+FILEPOS{ 5399 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_AddonIntro_14_01"); //(abfällig) Menschen sind schwach. }
+LINE   { 78 }
+FILEPOS{ 5483 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_AddonIntro_14_02"); //(abfällig) Nur allzu leicht erliegen sie den Verlockungen des Bösen. }
+LINE   { 79 }
+FILEPOS{ 5576 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_AddonIntro_14_03"); //Dabei lassen sie sich mit Mächten ein, die sie nicht verstehen, geschweige denn kontrollieren können. }
+LINE   { 80 }
+FILEPOS{ 5704 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_AddonIntro_14_04"); //Jene, die standhaft im Glauben sind, haben den Kampf gegen den Feind bereits begonnen. }
+LINE   { 81 }
+FILEPOS{ 5865 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_00"); //Nach dem Fall der Barriere und der Verbannung des Schläfers ist Beliars Zorn noch größer geworden! }
+LINE   { 84 }
+FILEPOS{ 6030 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_01"); //Ein mächtiges Artefakt, so steht es in den alten Schriften, wird wieder auf diese Welt zurückgeholt werden. }
+LINE   { 85 }
+FILEPOS{ 6199 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_02"); //(zitiert) 'Wenn der Gott der Finsternis seine Schergen auf die Suche schickt' }
+LINE   { 86 }
+FILEPOS{ 6377 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_03"); //Und genau das ist geschehen.  }
+LINE   { 87 }
+FILEPOS{ 6525 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_04"); //Diese Suche - hat längst begonnen! }
+LINE   { 88 }
+FILEPOS{ 6625 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_05"); //Beliars Schergen entweihen bei ihrer Suche die ältesten Heiligtümer der Götter. }
+LINE   { 89 }
+FILEPOS{ 6730 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_06"); //Beliars Schergen entweihen die ältesten Heiligtümer der Götter. }
+LINE   { 90 }
+FILEPOS{ 6880 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_07"); //Die Wächter dieser heiligen Orte sind erwacht. Und ihr Zorn - läßt die Erde erbeben! }
+LINE   { 91 }
+FILEPOS{ 7014 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_08"); //Alle mächtigen Magier auf dieser Insel spüren diesen Zorn.  }
+LINE   { 92 }
+FILEPOS{ 7169 }
+
+FILE   { \_WORK\DATA\SCRIPTS\CONTENT\STORY\B_ASSIGNAMBIENTINFOS\B_VIDEO.D }
+SYMBOL { 	AI_Output	(self, other, "DIA_Addon_Xardas_AddonIntro_Add_14_09"); //Und einige von ihnen sind mit Sicherheit schon dabei, der Bedrohung entgegenzutreten. }
+LINE   { 93 }
+FILEPOS{ 7299 }
+
