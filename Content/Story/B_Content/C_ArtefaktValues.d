@@ -87,7 +87,7 @@ func int C_MA_ArtefaktValue()
 		{
 			MA_Artefakt_Value = MA_Ring_Double_Bonus;
 		}
-		else
+		else 
 		{
 			MA_Artefakt_Value = MA_Ring_Solo_Bonus;
 		};

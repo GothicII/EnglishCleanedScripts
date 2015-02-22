@@ -2,6 +2,8 @@
 func void B_Say_AttackEnd()
 {
 	var int rnd;
+	var int random;
+	var int randy;
 	if((self.aivar[AIV_ATTACKREASON] == AR_GuildEnemy) || (self.aivar[AIV_ATTACKREASON] == AR_MonsterMurderedHuman))
 	{
 		if(other.guild < GIL_SEPERATOR_HUM)
@@ -34,7 +36,41 @@ func void B_Say_AttackEnd()
 			};
 			if(other.aivar[AIV_KilledByPlayer] == FALSE)
 			{
-				B_Say(self,other,"$MONSTERKILLED");
+				if(self.voice == 9)
+				{
+					random = Hlp_Random(2);
+					if(random == 0)
+					{
+						B_Say(self,other,"$ADDON_MONSTERKILLED");
+					}
+					else
+					{
+						B_Say(self,other,"$ADDON_MONSTERKILLED2");
+					};
+				}
+				else if(self.voice == 12)
+				{
+					if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(GornOW)) || (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(GornDJG)) || (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(GornNW_vor_DJG)) || (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(GornNW_nach_DJG)) || (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Gorn_DI)))
+					{
+						randy = Hlp_Random(2);
+						if(randy == 0)
+						{
+							B_Say(self,other,"$ADDON_MONSTERKILLED");
+						}
+						else
+						{
+							B_Say(self,other,"$MONSTERKILLED");
+						};
+					}
+					else
+					{
+						B_Say(self,other,"$ADDON_MONSTERKILLED");
+					};
+				}
+				else
+				{
+					B_Say(self,other,"$MONSTERKILLED");
+				};
 			}
 			else
 			{
@@ -86,7 +122,14 @@ func void B_Say_AttackEnd()
 	};
 	if(self.aivar[AIV_ATTACKREASON] == AR_MonsterVsHuman)
 	{
-		B_Say(self,other,"$MONSTERKILLED");
+		if((self.voice == 9) || (self.voice == 12))
+		{
+			B_Say(self,other,"$ADDON_MONSTERKILLED");
+		}
+		else
+		{
+			B_Say(self,other,"$MONSTERKILLED");
+		};
 		return;
 	};
 	if(self.aivar[AIV_ATTACKREASON] == AR_MonsterCloseToGate)

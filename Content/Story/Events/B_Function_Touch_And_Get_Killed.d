@@ -1,7 +1,6 @@
-//B_FUNCTION_TOUCH_AND_GET_KILLED
-func void B_FUNCTION_TOUCH_AND_GET_KILLED ()
-{	
-	B_KillNpc (self);
-};
 
+func void b_function_touch_and_get_killed()
+{
+	B_KillNpc(self);
+};
 

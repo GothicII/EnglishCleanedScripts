@@ -424,7 +424,7 @@ func void Use_Forestberry()
 
 instance ItPl_Planeberry(C_Item)
 {
-	name = "Planeberry";
+	name = "Meadow Berry";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Planeberry;

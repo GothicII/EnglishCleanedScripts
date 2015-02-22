@@ -75,19 +75,19 @@ func int B_TeachPlayerTalentTakeAnimalTrophy(var C_Npc slf,var C_Npc oth,var int
 	if(trophy == TROPHY_DragonScale)
 	{
 		PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonScale] = TRUE;
-		/*CreateInvItems(SwampDragon,ItAt_DragonScale,12);
+		CreateInvItems(SwampDragon,ItAt_DragonScale,12);
 		CreateInvItems(RockDragon,ItAt_DragonScale,12);
 		CreateInvItems(FireDragon,ItAt_DragonScale,12);
-		CreateInvItems(IceDragon,ItAt_DragonScale,12);*/
+		CreateInvItems(IceDragon,ItAt_DragonScale,12);
 		B_LogEntry(TOPIC_TalentAnimalTrophy,"... remove dragon scales from the hide of dead dragons.");
 	};
 	if(trophy == TROPHY_DragonBlood)
 	{
 		PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_DragonBlood] = TRUE;
-		/*CreateInvItems(SwampDragon,ItAt_DragonBlood,2);
+		CreateInvItems(SwampDragon,ItAt_DragonBlood,2);
 		CreateInvItems(RockDragon,ItAt_DragonBlood,2);
 		CreateInvItems(FireDragon,ItAt_DragonBlood,2);
-		CreateInvItems(IceDragon,ItAt_DragonBlood,2);*/
+		CreateInvItems(IceDragon,ItAt_DragonBlood,2);
 		B_LogEntry(TOPIC_TalentAnimalTrophy,"... collect the blood from a dead dragon.");
 	};
 	PrintScreen(PRINT_LearnTakeAnimalTrophy,-1,-1,FONT_Screen,2);

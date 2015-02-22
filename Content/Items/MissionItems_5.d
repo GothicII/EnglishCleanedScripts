@@ -41,7 +41,7 @@ func void Use_XardasLetterToOpenBook()
 	Doc_Show(nDocID);
 	if(MIS_Xardas_SCCanOpenIrdorathBook == FALSE)
 	{
-		//B_LogEntry(TOPIC_BuchHallenVonIrdorath,"In his letter, Xardas informed me what words to speak to open the book THE HALLS OF IRDORATH.");
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,"In his letter, Xardas informed me what words to speak to open the book THE HALLS OF IRDORATH.");
 	};
 	MIS_Xardas_SCCanOpenIrdorathBook = TRUE;
 };
@@ -90,7 +90,7 @@ func void Use_HallsofIrdorath()
 		Print(PRINT_IrdorathBookHiddenKey);
 		B_GivePlayerXP(XP_HallsofIrdorathIsOpen);
 		ItWr_HallsofIrdorathIsOpen = TRUE;
-		//B_LogEntry(TOPIC_BuchHallenVonIrdorath,"I was able to open Xardas' book. It contained a secret message and a strange key. Who knows what else I might find in the monastery's cellar.");
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,"I was able to open Xardas' book. It contained a secret message and a strange key. Who knows what else I might find in the monastery's cellar.");
 	}
 	else
 	{
@@ -123,7 +123,7 @@ func void Use_HallsofIrdorath_Open()
 	var int nDocID;
 	if(ItWr_SCReadsHallsofIrdorath == FALSE)
 	{
-		//B_LogEntry(TOPIC_BuchHallenVonIrdorath,"I have read Xardas' book. It mentions a secret library. It must be somewhere here in the cellar of the monastery.");
+		B_LogEntry(TOPIC_BuchHallenVonIrdorath,"I have read Xardas' book. It mentions a secret library. It must be somewhere here in the cellar of the monastery.");
 	};
 	ItWr_SCReadsHallsofIrdorath = TRUE;
 	nDocID = Doc_Create();
@@ -291,9 +291,9 @@ func void Use_Seamap_Irdorath()
 	};
 	if(MIS_SCKnowsWayToIrdorath == FALSE)
 	{
-		//Log_CreateTopic(Topic_Ship,LOG_MISSION);
-		//Log_SetTopicStatus(Topic_Ship,LOG_Running);
-		//B_LogEntry(Topic_Ship,"It appears I must reach the enemy's strange island. But for that I need a ship, a crew and a captain.");
+		Log_CreateTopic(Topic_Ship,LOG_MISSION);
+		Log_SetTopicStatus(Topic_Ship,LOG_Running);
+		B_LogEntry(Topic_Ship,"It appears I must reach the enemy's strange island. But for that I need a ship, a crew and a captain.");
 		B_GivePlayerXP(XP_SCKnowsWayToIrdorath);
 	};
 	MIS_SCKnowsWayToIrdorath = TRUE;

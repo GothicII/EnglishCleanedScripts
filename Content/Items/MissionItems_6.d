@@ -194,7 +194,7 @@ func void Use_ItWr_LastDoorToUndeadDrgDI_MIS()
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetMargins(nDocID,-1,200,50,50,50,1);
 	Doc_Show(nDocID);
-	//B_LogEntry(TOPIC_HallenVonIrdorath,"The black magician's scroll contained the words KHADOSH EMEM KADAR. It sounds like some kind of magic formula, but what is it used for - and what is the Eye of Power?");
+	B_LogEntry(TOPIC_HallenVonIrdorath,"The black magician's scroll contained the words KHADOSH EMEM KADAR. It sounds like some kind of magic formula, but what is it used for - and what is the Eye of Power?");
 };
 
 
@@ -285,7 +285,7 @@ func void Use_Diary_BlackNovice()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLines(nDocID,1,"I tried my luck yesterday. But I failed the two lever chambers before I could even press the three switches in the west wing in the right order. That dog locked the chambers! Tomorrow I'm going to try and get the key off him ...");
 	Doc_Show(nDocID);
-	//B_LogEntry(TOPIC_HallenVonIrdorath,"The diary of the novice black magician talks about lever chambers, key masters, switch combinations and other things. I should keep that in the back of my mind, it could be useful later.");
+	B_LogEntry(TOPIC_HallenVonIrdorath,"The diary of the novice black magician talks about lever chambers, key masters, switch combinations and other things. I should keep that in the back of my mind, it could be useful later.");
 };
 
 

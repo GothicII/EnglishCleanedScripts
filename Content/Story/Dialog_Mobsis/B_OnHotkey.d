@@ -27,10 +27,10 @@ func int B_GetBestPlayerMap()
 		{
 			return ItWr_ShatteredGolem_MIS;
 		}
-		/*else if(Npc_HasItems(hero,ItWr_Map_Orcelite_MIS) >= 1)
+		else if(Npc_HasItems(hero,ItWr_Map_Orcelite_MIS) >= 1)
 		{
 			return ItWr_Map_Orcelite_MIS;
-		}*/
+		}
 		else if(Npc_HasItems(hero,ItWr_Map_NewWorld_City) >= 1)
 		{
 			return ItWr_Map_NewWorld_City;
@@ -90,10 +90,10 @@ func int B_GetAnyPlayerMap()
 	{
 		return ItWr_ShatteredGolem_MIS;
 	}
-	/*else if(Npc_HasItems(hero,ItWr_Map_Orcelite_MIS) >= 1)
+	else if(Npc_HasItems(hero,ItWr_Map_Orcelite_MIS) >= 1)
 	{
 		return ItWr_Map_Orcelite_MIS;
-	}*/
+	}
 	else if(Npc_HasItems(hero,ItWr_Map_NewWorld_City) >= 1)
 	{
 		return ItWr_Map_NewWorld_City;
@@ -130,7 +130,7 @@ func int player_hotkey_screen_map()
 	NewInstance = OldInstance;
 	if(CurrentLevel != NEWWORLD_ZEN)
 	{
-		if((OldInstance == ItWr_Map_Caves_MIS) || (OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City) || (OldInstance == ItWr_Map_NewWorld_Dexter) || (OldInstance == ItWr_Map_NewWorld_Ornaments_Addon) /*|| (OldInstance == ItWr_Map_Orcelite_MIS)*/ || (OldInstance == ItWr_Map_Shrine_MIS) || (OldInstance == ItWr_ShatteredGolem_MIS))
+		if((OldInstance == ItWr_Map_Caves_MIS) || (OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City) || (OldInstance == ItWr_Map_NewWorld_Dexter) || (OldInstance == ItWr_Map_NewWorld_Ornaments_Addon) || (OldInstance == ItWr_Map_Orcelite_MIS) || (OldInstance == ItWr_Map_Shrine_MIS) || (OldInstance == ItWr_ShatteredGolem_MIS))
 		{
 			NewInstance = 0;
 		};

@@ -1,43 +1,40 @@
-// ***************
-// SPL_Deathball
-// ***************
 
-const int SPL_Cost_Deathball	= 35;
-const int SPL_Damage_Deathball	= 165;
+const int SPL_COST_Deathball = 35;
+const int SPL_DAMAGE_Deathball = 165;
 
-
-INSTANCE Spell_Deathball (C_Spell_Proto)
+instance Spell_Deathball(C_Spell_Proto)
 {
-	time_per_mana			= 0;			//Spell wirkt Instant
-	damage_per_level 		= SPL_Damage_Deathball; 
+	time_per_mana = 0;
+	damage_per_level = SPL_DAMAGE_Deathball;
 };
 
-func int Spell_Logic_Deathball (var int manaInvested)
+
+func int Spell_Logic_Deathball(var int manaInvested)
 {
-	if (Npc_GetActiveSpellIsScroll(self) && (self.attribute[ATR_MANA] >= SPL_Cost_Scroll))
+	if(Npc_GetActiveSpellIsScroll(self) && (self.attribute[ATR_MANA] >= SPL_Cost_Scroll))
 	{
 		return SPL_SENDCAST;
 	}
-	else if (self.attribute[ATR_MANA] >= SPL_Cost_Deathball)
+	else if(self.attribute[ATR_MANA] >= SPL_COST_Deathball)
 	{
 		return SPL_SENDCAST;
 	}
-	else //nicht genug Mana
+	else
 	{
 		return SPL_SENDSTOP;
 	};
 };
 
-func void Spell_Cast_Deathball ()
+func void Spell_Cast_Deathball()
 {
-	if (Npc_GetActiveSpellIsScroll(self))
+	if(Npc_GetActiveSpellIsScroll(self))
 	{
 		self.attribute[ATR_MANA] = self.attribute[ATR_MANA] - SPL_Cost_Scroll;
 	}
 	else
 	{
-		self.attribute[ATR_MANA] = self.attribute[ATR_MANA] - SPL_Cost_Deathball;
+		self.attribute[ATR_MANA] = self.attribute[ATR_MANA] - SPL_COST_Deathball;
 	};
-	
 	self.aivar[AIV_SelectSpell] += 1;
 };
+

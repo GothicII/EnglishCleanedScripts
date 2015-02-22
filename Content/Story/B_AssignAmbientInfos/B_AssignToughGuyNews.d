@@ -32,14 +32,12 @@ func void DIA_ToughGuy_NEWS_Info()
 		B_Say(self,other,"$TOUGHGUY_PLAYERATTACK");
 	};
 	self.aivar[AIV_LastFightComment] = TRUE;
-	
-	/*
 	if(Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Skinner))
 	{
-		AI_Output(self,other,"DIA_Addon_Skinner_ToughguyNews_08_00");	//
+		AI_Output(self,other,"DIA_Addon_Skinner_ToughguyNews_08_00");	//... but I don't want to talk to you...
 		AI_StopProcessInfos(self);
 		B_Attack(self,other,AR_NONE,1);
-	};*/
+	};
 };
 
 func void B_AssignToughGuyNEWS(var C_Npc slf)

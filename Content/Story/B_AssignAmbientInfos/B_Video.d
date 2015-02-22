@@ -53,20 +53,20 @@ func void B_Video()
 	AI_Output(other,self,"OUTRO_Schiff_15_09");	//But I don't see a storm ...
 	AI_Output(self,other,"OUTRO_Schiff_12_10");	//Not YET ...
 	AI_Output(other,self,"OUTRO_Schiff_15_11");	//Relax! Everything will turn out all right!
-	AI_Output(other,self,"DIA_Addon_AddonIntro_15_00");	//
-	AI_Output(self,other,"DIA_Addon_AddonIntro_14_01");	//
-	AI_Output(self,other,"DIA_Addon_AddonIntro_14_02");	//
-	AI_Output(self,other,"DIA_Addon_AddonIntro_14_03");	//
-	AI_Output(self,other,"DIA_Addon_AddonIntro_14_04");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_00");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_01");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_02");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_03");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_04");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_05");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_06");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_07");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_08");	//
-	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_09");	//
+	AI_Output(other,self,"DIA_Addon_AddonIntro_15_00");	//(astonished) ... humans?
+	AI_Output(self,other,"DIA_Addon_AddonIntro_14_01");	//(scornfully) Humans are weak.
+	AI_Output(self,other,"DIA_Addon_AddonIntro_14_02");	//(scornfully) They succumb all too easily to the temptations of evil.
+	AI_Output(self,other,"DIA_Addon_AddonIntro_14_03");	//And so, they get involved with powers they do not understand, and certainly cannot control.
+	AI_Output(self,other,"DIA_Addon_AddonIntro_14_04");	//Those who are steadfast in their faith have already begun the battle against the enemy.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_00");	//After the fall of the Barrier and the banishment of the Sleeper, Beliar's wrath has grown even greater!
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_01");	//A mighty artifact, so it is written in the old scriptures, will be brought back to this world.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_02");	//(quoting) 'When the God of Darkness sends his henchmen out to search'
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_03");	//And just that has happened.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_04");	//This search - has long since begun!
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_05");	//In their search, Beliar's henchmen are desecrating the oldest shrines of the gods.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_06");	//Beliar's henchmen are desecrating the oldest shrines of the gods.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_07");	//The guardians of these holy places have awakened. And their wrath - makes the earth tremble!
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_08");	//Every powerful magician on this island can sense this wrath.
+	AI_Output(self,other,"DIA_Addon_Xardas_AddonIntro_Add_14_09");	//And some of them have certainly begun to face the threat.
 };
 

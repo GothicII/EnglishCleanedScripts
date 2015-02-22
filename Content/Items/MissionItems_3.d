@@ -189,7 +189,7 @@ func void UseCorneliusTagebuch()
 {
 	var int nDocID;
 	Cornelius_IsLiar = TRUE;
-	//B_LogEntry(TOPIC_RescueBennet,"The diary is the evidence I need to prove Bennet's innocence.");
+	B_LogEntry(TOPIC_RescueBennet,"The diary is the evidence I need to prove Bennet's innocence.");
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
 	Doc_SetPage(nDocID,0,"Book_Brown_L.tga",0);
@@ -790,14 +790,14 @@ func void Use_MinenAnteil_Mis()
 	SC_KnowsProspektorSalandril = TRUE;
 	if(ItWr_MinenAnteil_Mis_OneTime == FALSE)
 	{
-		//B_LogEntry(TOPIC_MinenAnteile,"The guy who sold the mine shares to the merchants is called Salandril. I'll probably find him in the upper quarter of Khorinis, unless he's already running away from justice.");
-		//if(Npc_IsDead(Salandril))
-		//{
-			//B_LogEntry(TOPIC_MinenAnteile,"Salandril is dead. I'm going to have to tell Serpentes.");
+		B_LogEntry(TOPIC_MinenAnteile,"The guy who sold the mine shares to the merchants is called Salandril. I'll probably find him in the upper quarter of Khorinis, unless he's already running away from justice.");
+		if(Npc_IsDead(Salandril))
+		{
+			B_LogEntry(TOPIC_MinenAnteile,"Salandril is dead. I'm going to have to tell Serpentes.");
 		};
 		ItWr_MinenAnteil_Mis_OneTime = TRUE;
 	};
-//};
+};
 
 
 instance ItAm_Prot_BlackEye_Mis(C_Item)

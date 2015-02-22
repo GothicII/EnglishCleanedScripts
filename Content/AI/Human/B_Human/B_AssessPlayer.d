@@ -1,180 +1,106 @@
-// *******************************************************
-// B_AssessPlayer
-// --------------
-// Aufgerufen durch aktive Wahrnehmung PERC_ASSESSPLAYER. 
-// Spieler wurde GESEHEN (Humans haben keinen sense_smell)
-// Reichweite: PERC_DIST_ACTIVE_MAX
-// *******************************************************
 
-func void B_AssessPlayer ()
+func void B_AssessPlayer()
 {
-	// EXIT IF
-		
-	// ------- TESTMODE: Levelinspektor wird ignoriert ------
-	var C_NPC PCL; PCL = Hlp_GetNpc(PC_Levelinspektor);
-	if (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCL))
+	var C_Npc pcl;
+	pcl = Hlp_GetNpc(PC_Levelinspektor);
+	if(Hlp_GetInstanceID(other) == Hlp_GetInstanceID(pcl))
 	{
 		return;
 	};
-	
-	// ------ SC im Dialog ------
-	if (other.aivar[AIV_INVINCIBLE] == TRUE) 
+	if(other.aivar[AIV_INVINCIBLE] == TRUE)
 	{
 		return;
 	};
-	
-	// ------ Ignorieren, wenn SC tot, ohnmächtig oder in magischem Schlaf ------
-	if (C_NpcIsDown (other))
+	if(C_NpcIsDown(other))
 	{
 		return;
 	};
-	
-	// ------ Spieler ist in ein Monster verwandelt ------
-	// ACHTUNG: NSCs haben noch Perm_Attitude zu verwandeltem Player, die Guild-Attitude overridet (d.h. sie sind i.d.R. neutral), weswegen AssessEnemy nicht greift
-	if (other.guild > GIL_SEPERATOR_HUM) 
+	if(other.guild > GIL_SEPERATOR_HUM)
 	{
-		if (C_NpcIsGateGuard (self)) //Wachen müssen auch freudliches/neutrales SC-Monster aufhalten 
+		if(C_NpcIsGateGuard(self))
 		{
-			AI_StandUpQuick	(self);									//B_Attack hat nur normalen AI_StandUp
-			B_Attack (self, other, AR_MonsterCloseToGate, 0);		//angreifen oder fliehen
+			AI_StandupQuick(self);
+			B_Attack(self,other,AR_MonsterCloseToGate,0);
 			return;
 		}
-		else if (Wld_GetGuildAttitude(self.guild, other.guild) == ATT_HOSTILE)
+		else if(Wld_GetGuildAttitude(self.guild,other.guild) == ATT_HOSTILE)
 		{
-			// ------ Angriff, mit folgenden Ausnahmen ------
-			if (self.aivar[AIV_PARTYMEMBER] == FALSE)
-			&& (self.npctype != NPCTYPE_FRIEND)
+			if((self.aivar[AIV_PARTYMEMBER] == FALSE) && (self.npcType != NPCTYPE_FRIEND))
 			{
-				B_Attack (self, other, AR_GuildEnemy, 0);
+				B_Attack(self,other,AR_GuildEnemy,0);
 				return;
 			};
 		};
 	};
-	
-	// ------ Spieler ist Enemy ------
-	if (B_AssessEnemy())	
-	{ 
-		return;
-	};
-	// -------- Spieler hat Banditen Rüstung an ------
-	if (C_PlayerIsFakeBandit (self,other)
-	&& (self.guild != GIL_BDT))
-	{
-		B_Attack (self,other,AR_GuildEnemy,0);
-	};
-	
-	// ------ Spieler ist Mörder ------
-	if (B_GetPlayerCrime(self) == CRIME_MURDER)
-	&& (C_WantToAttackMurder(self, other))
-	&& (Npc_GetDistToNpc(self, other) <= PERC_DIST_INTERMEDIAT)
-	{
-		B_Attack (self, other, AR_HumanMurderedHuman, 0);	
-		return;
-	};
-	
-	// ------ SC ist in einem Portalraum, der mir oder meinen Freuden gehört ------
-	if (B_AssessEnterRoom())	
+	if(B_AssessEnemy())
 	{
 		return;
 	};
-	
-	// ------ SC hat irgendeine Waffe bereit -------
-	if (B_AssessDrawWeapon())
+	if(C_PlayerIsFakeBandit(self,other) && (self.guild != GIL_BDT))
+	{
+		B_Attack(self,other,AR_GuildEnemy,0);
+	};
+	if((B_GetPlayerCrime(self) == CRIME_MURDER) && C_WantToAttackMurder(self,other) && (Npc_GetDistToNpc(self,other) <= PERC_DIST_INTERMEDIAT))
+	{
+		B_Attack(self,other,AR_HumanMurderedHuman,0);
+		return;
+	};
+	if(B_AssessEnterRoom())
+	{
+		return;
+	};
+	if(B_AssessDrawWeapon())
 	{
 		return;
 	}
-	else //FLAG freimachen
+	else
 	{
 		Player_DrawWeaponComment = FALSE;
 	};
-	
-	// ------ SC schleicht -------
-	if (C_BodyStateContains(other,BS_SNEAK))
+	if(C_BodyStateContains(other,BS_SNEAK))
 	{
-		if (!Npc_IsInState(self, ZS_ObservePlayer))
-		&& (C_WantToReactToSneaker(self, other))
-    	{
-			Npc_ClearAIQueue	(self);
-			B_ClearPerceptions	(self);
-			AI_StartState 		(self, ZS_ObservePlayer, 1, "");
-			return;
-    	};
-	}
-	else //FLAG freimachen
-	{
-		if (!C_BodyStateContains(other,BS_STAND)) //+++HACK+++ Sneak-Stand ist KEIN BS_Sneak!
+		if(!Npc_IsInState(self,ZS_ObservePlayer) && C_WantToReactToSneaker(self,other))
 		{
-			Player_SneakerComment = FALSE;
+			Npc_ClearAIQueue(self);
+			B_ClearPerceptions(self);
+			AI_StartState(self,ZS_ObservePlayer,1,"");
+			return;
 		};
+	}
+	else if(!C_BodyStateContains(other,BS_STAND))
+	{
+		Player_SneakerComment = FALSE;
 	};
-	
-	// FLAG freimachen
-	if (!C_BodyStateContains(other,BS_LIE))
+	if(!C_BodyStateContains(other,BS_LIE))
 	{
 		Player_GetOutOfMyBedComment = FALSE;
 	};
-	
-	
-	// FUNC
-	
-	//------------------------------------
-	//Joly: ImportantInfos für AmbientDMT! 
-	//B_AssignDementorTalk (self);
-	//------------------------------------
-
-	// ------ Hat NSC Important Info für Spieler? Auch GUARDPASSAGE ------
-	if (Npc_GetDistToNpc(self,other) <= PERC_DIST_DIALOG)
-	&& (Npc_CheckInfo (self, 1))	//REIHENFOLGE nicht vertauschen! (Check ist dahingehend buggy (darf nicht als erste Abfrage in &&-verknüpfter If-Abfrage stehen))
+	B_AssignDementorTalk(self);
+	if((Npc_GetDistToNpc(self,other) <= PERC_DIST_DIALOG) && Npc_CheckInfo(self,1))
 	{
-		// ------ Gate Guards labern IMMER an ------
-		if (C_NpcIsGateGuard(self))
+		if(C_NpcIsGateGuard(self))
 		{
 			self.aivar[AIV_NpcStartedTalk] = TRUE;
-			
 			B_AssessTalk();
 			return;
 		}
-		else //alle anderen NSCs
+		else if(!C_BodyStateContains(other,BS_FALL) && !C_BodyStateContains(other,BS_SWIM) && !C_BodyStateContains(other,BS_DIVE) && (B_GetPlayerCrime(self) == CRIME_NONE) && (C_RefuseTalk(self,other) == FALSE) && (C_PlayerHasFakeGuild(self,other) == FALSE))
 		{
-			// ------- Spieler fällt, schwimmt und taucht NICHT ------
-			if (!C_BodyStateContains(other,BS_FALL))
-			&& (!C_BodyStateContains(other,BS_SWIM))
-			&& (!C_BodyStateContains(other,BS_DIVE))
-			// ------- und NUR, wenn keine CRIME vorliegt -------
-			&& (B_GetPlayerCrime(self) == CRIME_NONE)
-			// ------- und NUR, wenn NSC KEINEN RefuseTalk hat ------
-			&& (C_RefuseTalk(self,other) == FALSE)
-			// ------- Will ich die FakeArmor kommentieren? ---
-			&& (C_PlayerHasFakeGuild (self,other) == FALSE)
-			{
-				self.aivar[AIV_NpcStartedTalk] = TRUE;
-				
-				B_AssessTalk();
-				return;
-			};
+			self.aivar[AIV_NpcStartedTalk] = TRUE;
+			B_AssessTalk();
+			return;
 		};
-	};	
-	
-	// ------ sonst den Spieler einfach grüßen (wenn ich ihm entgegenkomme) ------
-	if (C_BodyStateContains(self,BS_WALK))
-	&& (Npc_GetDistToNpc(self,other) <= PERC_DIST_DIALOG)			// Npc_CanSeeNpc hier sowieso == TRUE; sonst keine ASSESSPLAYER-Wahrnehmung
-	&& (Npc_RefuseTalk(other) == FALSE)		//Damit kein Gruß-Maschinengewehr losgeht
-	&& (!C_NpcIsGateGuard (self))	//GateGuards benutzen RefuseTalk-Counter, um zu verhindern, daß der Spieler von hinten kommend auch angequatscht wird
-	&& (C_PlayerHasFakeGuild (self,other) == FALSE)			
-	{	
-		B_LookAtNpc 			(self, other);
-		B_Say_GuildGreetings 	(self, other);
-		B_StopLookAt 			(self);		
-		Npc_SetRefuseTalk(other,20); //BEACHTEN: other ist Spieler!
 	};
-	
-	// ------ GuardPassage AIVAR des Spielers resetten ------
-	if (C_NpcIsGateGuard (self))
-	&& (Npc_GetDistToNpc (self, other) > PERC_DIST_DIALOG)
+	if(C_BodyStateContains(self,BS_WALK) && (Npc_GetDistToNpc(self,other) <= PERC_DIST_DIALOG) && (Npc_RefuseTalk(other) == FALSE) && !C_NpcIsGateGuard(self) && (C_PlayerHasFakeGuild(self,other) == FALSE))
+	{
+		B_LookAtNpc(self,other);
+		B_Say_GuildGreetings(self,other);
+		B_StopLookAt(self);
+		Npc_SetRefuseTalk(other,20);
+	};
+	if(C_NpcIsGateGuard(self) && (Npc_GetDistToNpc(self,other) > PERC_DIST_DIALOG))
 	{
 		self.aivar[AIV_Guardpassage_Status] = GP_NONE;
 	};
-	
-	return;
 };
-			
+

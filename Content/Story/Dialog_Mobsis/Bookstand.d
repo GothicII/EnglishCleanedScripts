@@ -9,9 +9,9 @@ func void Use_Bookstand_01_S1()
 		if(hero.guild == GIL_NOV)
 		{
 			KNOWS_FIRE_CONTEST = TRUE;
-			//Log_CreateTopic(TOPIC_FireContest,LOG_MISSION);
-			//Log_SetTopicStatus(TOPIC_FireContest,LOG_Running);
-			//B_LogEntry(TOPIC_FireContest,"As a novice, I have a right to demand the Test of Fire. This entails each of the three magicians from the High Council setting me a test. If I pass these trials, I will be accepted into the Circle of Fire.");
+			Log_CreateTopic(TOPIC_FireContest,LOG_MISSION);
+			Log_SetTopicStatus(TOPIC_FireContest,LOG_Running);
+			B_LogEntry(TOPIC_FireContest,"As a novice, I have a right to demand the Test of Fire. This entails each of the three magicians from the High Council setting me a test. If I pass these trials, I will be accepted into the Circle of Fire.");
 		};
 		nDocID = Doc_Create();
 		Doc_SetPages(nDocID,2);

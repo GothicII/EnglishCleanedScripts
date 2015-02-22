@@ -420,13 +420,13 @@ instance SVM_1(C_SVM)
 	Aargh_1 = "SVM_1_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_1_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_1_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_1_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_1_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_1_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_1_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_1_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_1_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_1_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_1_Addon_WrongArmor";	//Those aren't your clothes. I'm not talking to you.
+	addon_wrongarmor_sld = "SVM_1_ADDON_WRONGARMOR_SLD";	//What are you wearing? Put on something decent.
+	addon_wrongarmor_mil = "SVM_1_ADDON_WRONGARMOR_MIL";	//You are a soldier! Dress like one.
+	addon_wrongarmor_kdf = "SVM_1_ADDON_WRONGARMOR_KDF";	//Your clothing is not appropriate for our order. Go and change.
+	addon_noarmor_bdt = "SVM_1_ADDON_ADDON_NOARMOR_BDT";	//You haven't even got any armor. Beat it!
+	addon_diebandit = "SVM_1_ADDON_DIEBANDIT";	//Die, you filthy bandit!
+	addon_dirtypirate = "SVM_1_ADDON_DIRTYPIRATE";	//Pirate scum!
 };
 
 instance SVM_2(C_SVM)
@@ -611,13 +611,13 @@ instance SVM_3(C_SVM)
 	Aargh_1 = "SVM_3_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_3_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_3_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_3_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_3_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_3_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_3_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_3_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_3_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_3_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_3_Addon_WrongArmor";	//What kind of clothes are those? They don't suit you at all. Leave me alone.
+	addon_wrongarmor_sld = "SVM_3_ADDON_WRONGARMOR_SLD";	//If you want to talk, then put on something decent first.
+	addon_wrongarmor_mil = "SVM_3_ADDON_WRONGARMOR_MIL";	//We soldiers wear our uniforms with pride. Get changed.
+	addon_wrongarmor_kdf = "SVM_3_ADDON_WRONGARMOR_KDF";	//All are equal in our order, therefore we all wear the same clothing. Go change!
+	addon_noarmor_bdt = "SVM_3_ADDON_ADDON_NOARMOR_BDT";	//You must have come straight out of the slammer. First get yourself something to wear.
+	addon_diebandit = "SVM_3_ADDON_DIEBANDIT";	//COME HERE, YOU BANDIT!
+	addon_dirtypirate = "SVM_3_ADDON_DIRTYPIRATE";	//COME HERE, YOU PIRATE!
 };
 
 instance SVM_4(C_SVM)
@@ -798,13 +798,13 @@ instance SVM_4(C_SVM)
 	Aargh_1 = "SVM_4_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_4_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_4_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_4_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_4_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_4_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_4_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_4_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_4_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_4_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_4_Addon_WrongArmor";	//First get dressed properly, then we'll talk some more.
+	addon_wrongarmor_sld = "SVM_4_ADDON_WRONGARMOR_SLD";	//You had better wear your armor if you want to talk to me.
+	addon_wrongarmor_mil = "SVM_4_ADDON_WRONGARMOR_MIL";	//Hasn't anyone given you some of our armor? Then get some first.
+	addon_wrongarmor_kdf = "SVM_4_ADDON_WRONGARMOR_KDF";	//Where is your robe? Go and change. Until then, I will not talk to you.
+	addon_noarmor_bdt = "SVM_4_ADDON_ADDON_NOARMOR_BDT";	//What kind of a poor bugger are you? Come back when you can afford some armor.
+	addon_diebandit = "SVM_4_ADDON_DIEBANDIT";	//Another bandit!
+	addon_dirtypirate = "SVM_4_ADDON_DIRTYPIRATE";	//You dirty pirate!
 };
 
 instance SVM_5(C_SVM)
@@ -985,13 +985,13 @@ instance SVM_5(C_SVM)
 	Aargh_1 = "SVM_5_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_5_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_5_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_5_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_5_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_5_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_5_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_5_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_5_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_5_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_5_Addon_WrongArmor";	//First put on something appropriate.
+	addon_wrongarmor_sld = "SVM_5_ADDON_WRONGARMOR_SLD";	//What are you wearing? Aren't you one of us any more? Then I won't have anything to do with you.
+	addon_wrongarmor_mil = "SVM_5_ADDON_WRONGARMOR_MIL";	//We soldiers fight for the King, so you had better wear his armor.
+	addon_wrongarmor_kdf = "SVM_5_ADDON_WRONGARMOR_KDF";	//Why does the order give you clothes if you don't wear them? Think about it.
+	addon_noarmor_bdt = "SVM_5_ADDON_ADDON_NOARMOR_BDT";	//What kind of poor sucker are you? You haven't even got any armor. Go away.
+	addon_diebandit = "SVM_5_ADDON_DIEBANDIT";	//Ah, a bandit.
+	addon_dirtypirate = "SVM_5_ADDON_DIRTYPIRATE";	//I'll tear you to pieces, pirate!
 };
 
 instance SVM_6(C_SVM)
@@ -1172,13 +1172,13 @@ instance SVM_6(C_SVM)
 	Aargh_1 = "SVM_6_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_6_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_6_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_6_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_6_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_6_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_6_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_6_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_6_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_6_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_6_Addon_WrongArmor";	//You look ridiculous in that get-up. Put on something decent.
+	addon_wrongarmor_sld = "SVM_6_ADDON_WRONGARMOR_SLD";	//Don't think I don't recognize you. Beat it and get changed.
+	addon_wrongarmor_mil = "SVM_6_ADDON_WRONGARMOR_MIL";	//Soldier. What sort of clothes are those? Get changed, on the spot!
+	addon_wrongarmor_kdf = "SVM_6_ADDON_WRONGARMOR_KDF";	//A servant of Innos does not conceal himself. Go and fetch your robe.
+	addon_noarmor_bdt = "SVM_6_ADDON_ADDON_NOARMOR_BDT";	//You're running around like a digger. First put something on.
+	addon_diebandit = "SVM_6_ADDON_DIEBANDIT";	//You picked a fight with the wrong guy, BANDIT!
+	addon_dirtypirate = "SVM_6_ADDON_DIRTYPIRATE";	//Back to sea, PIRATE!
 };
 
 instance SVM_7(C_SVM)
@@ -1359,13 +1359,13 @@ instance SVM_7(C_SVM)
 	Aargh_1 = "SVM_7_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_7_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_7_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_7_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_7_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_7_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_7_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_7_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_7_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_7_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_7_Addon_WrongArmor";	//Why the disguise? I won't talk to you like that.
+	addon_wrongarmor_sld = "SVM_7_ADDON_WRONGARMOR_SLD";	//What are you wearing? Put on our armor, will you!
+	addon_wrongarmor_mil = "SVM_7_ADDON_WRONGARMOR_MIL";	//That is a violation of the army's dress code. Get changed, on the spot.
+	addon_wrongarmor_kdf = "SVM_7_ADDON_WRONGARMOR_KDF";	//You had better wear your robe. Until then, I will say nothing and pray for you.
+	addon_noarmor_bdt = "SVM_7_ADDON_ADDON_NOARMOR_BDT";	//What do you want? You aren't one of us. You don't even wear our armor.
+	addon_diebandit = "SVM_7_ADDON_DIEBANDIT";	//Die, you miserable bandit!
+	addon_dirtypirate = "SVM_7_ADDON_DIRTYPIRATE";	//Die, you despicable pirate!
 };
 
 instance SVM_8(C_SVM)
@@ -1546,13 +1546,13 @@ instance SVM_8(C_SVM)
 	Aargh_1 = "SVM_8_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_8_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_8_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_8_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_8_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_8_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_8_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_8_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_8_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_8_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_8_Addon_WrongArmor";	//I don't trust you. Something isn't right about you or the way you're dressed.
+	addon_wrongarmor_sld = "SVM_8_ADDON_WRONGARMOR_SLD";	//The way you look, you must have signed on somewhere else? Then I won't have anything to do with you.
+	addon_wrongarmor_mil = "SVM_8_ADDON_WRONGARMOR_MIL";	//We have to show a presence. So go and fetch your armor.
+	addon_wrongarmor_kdf = "SVM_8_ADDON_WRONGARMOR_KDF";	//Innos wants us to wear his robes with pride. Go and change.
+	addon_noarmor_bdt = "SVM_8_ADDON_ADDON_NOARMOR_BDT";	//I don't talk to diggers. You haven't even got any armor.
+	addon_diebandit = "SVM_8_ADDON_DIEBANDIT";	//You filthy bandit!
+	addon_dirtypirate = "SVM_8_ADDON_DIRTYPIRATE";	//PIRATES!
 };
 
 instance SVM_9(C_SVM)
@@ -1563,8 +1563,8 @@ instance SVM_9(C_SVM)
 	IGetYouStill = "SVM_9_IGetYouStill";	//Now I've got you!
 	DieEnemy = "SVM_9_DieEnemy";	//You should never have come here!
 	DieMonster = "SVM_9_DieMonster";	//Come here, you filthy beast!
-	Addon_DieMonster = "SVM_9_Addon_DieMonster";	//
-	Addon_DieMonster2 = "SVM_9_Addon_DieMonster2";	//
+	Addon_DieMonster = "SVM_9_Addon_DieMonster";	//Another one of those beasts!
+	Addon_DieMonster2 = "SVM_9_Addon_DieMonster2";	//There's another of those scummy beasts!
 	DirtyThief = "SVM_9_DirtyThief";	//Dirty thief! Just wait!
 	HandsOff = "SVM_9_HandsOff";	//Get your paws off!
 	SheepKiller = "SVM_9_SheepKiller";	//Leave our sheep alone!
@@ -1578,8 +1578,8 @@ instance SVM_9(C_SVM)
 	WillYouStopFighting = "SVM_9_WillYouStopFighting";	//Stop it! Right now!
 	KillEnemy = "SVM_9_KillEnemy";	//I'll skewer you, bastard!
 	EnemyKilled = "SVM_9_EnemyKilled";	//That's it for you...
-	Addon_MonsterKilled = "SVM_9_Addon_MonsterKilled";	//
-	Addon_MonsterKilled2 = "SVM_9_Addon_MonsterKilled2";	//
+	Addon_MonsterKilled = "SVM_9_Addon_MonsterKilled";	//So much for you, filthy beast!
+	Addon_MonsterKilled2 = "SVM_9_Addon_MonsterKilled2";	//ONE less monster around!
 	ThiefDown = "SVM_9_ThiefDown";	//I'm warning you! Don' try that again, you dirty thief!
 	RumfummlerDown = "SVM_9_rumfummlerDown";	//From now on, keep your paws off stuff that isn't yours!
 	SheepAttackerDown = "SVM_9_SheepAttackerDown";	//And stay away from our sheep from now on!
@@ -1736,13 +1736,13 @@ instance SVM_9(C_SVM)
 	Aargh_1 = "SVM_9_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_9_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_9_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_9_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_9_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_9_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_9_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_9_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_9_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_9_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_9_Addon_WrongArmor";	//What's with the get-up? Put on something that suits you.
+	addon_wrongarmor_sld = "SVM_9_ADDON_WRONGARMOR_SLD";	//What are you wearing? Put on your armor, will you!
+	addon_wrongarmor_mil = "SVM_9_ADDON_WRONGARMOR_MIL";	//You work for the King, so you had better wear his armor. Get changed.
+	addon_wrongarmor_kdf = "SVM_9_ADDON_WRONGARMOR_KDF";	//Your clothing is not appropriate for our order. Go and change.
+	addon_noarmor_bdt = "SVM_9_ADDON_ADDON_NOARMOR_BDT";	//You haven't even got any armor. Beat it!
+	addon_diebandit = "SVM_9_ADDON_DIEBANDIT";	//Now it's your turn, bandit!
+	addon_dirtypirate = "SVM_9_ADDON_DIRTYPIRATE";	//You shouldn't have shown up here, pirate.
 };
 
 instance SVM_10(C_SVM)
@@ -1923,18 +1923,18 @@ instance SVM_10(C_SVM)
 	Aargh_1 = "SVM_10_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_10_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_10_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_10_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_10_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_10_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_10_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_10_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_10_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_10_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_10_Addon_WrongArmor";	//What kind of clothes are those? They don't suit you at all. Leave me alone.
+	addon_wrongarmor_sld = "SVM_10_ADDON_WRONGARMOR_SLD";	//If you're one of us, then you should wear our gear. First go change.
+	addon_wrongarmor_mil = "SVM_10_ADDON_WRONGARMOR_MIL";	//If someone gives you the King's armor, then you had better wear it.
+	addon_wrongarmor_kdf = "SVM_10_ADDON_WRONGARMOR_KDF";	//If you deny the robe, you deny Innos. Go and think upon this.
+	addon_noarmor_bdt = "SVM_10_ADDON_ADDON_NOARMOR_BDT";	//If you can't even afford any armor, why should I talk to you?
+	addon_diebandit = "SVM_10_ADDON_DIEBANDIT";	//You filthy bandit!
+	addon_dirtypirate = "SVM_10_ADDON_DIRTYPIRATE";	//You dirty pirate!
 };
 
 instance SVM_11(C_SVM)
 {
-	SC_HeyWaitASecond = "SVM_11_Addon_HeyWaitASecond";	//
+	SC_HeyWaitASecond = "SVM_11_Addon_HeyWaitASecond";	//(calls) Wait!
 	MILGreetings = "SVM_11_MILGreetings";	//For the King!
 	PALGreetings = "SVM_11_PALGreetings";	//For Innos!
 	Weather = "SVM_11_Weather";	//Crappy weather!
@@ -2111,13 +2111,13 @@ instance SVM_11(C_SVM)
 	Aargh_1 = "SVM_11_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_11_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_11_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_11_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_11_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_11_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_11_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_11_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_11_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_11_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_11_Addon_WrongArmor";	//What kind of clothes are those? They don't suit you at all. Leave me alone.
+	addon_wrongarmor_sld = "SVM_11_ADDON_WRONGARMOR_SLD";	//Kindly wear our armor when I'm talking to you. Go on, beat it.
+	addon_wrongarmor_mil = "SVM_11_ADDON_WRONGARMOR_MIL";	//You are supposed to wear the King's armor. Now, go.
+	addon_wrongarmor_kdf = "SVM_11_ADDON_WRONGARMOR_KDF";	//Your clothing is not appropriate for our order. Go and change.
+	addon_noarmor_bdt = "SVM_11_ADDON_ADDON_NOARMOR_BDT";	//You haven't even got any armor. Beat it!
+	addon_diebandit = "SVM_11_ADDON_DIEBANDIT";	//Another bandit.
+	addon_dirtypirate = "SVM_11_ADDON_DIRTYPIRATE";	//PIRATES!
 };
 
 instance SVM_12(C_SVM)
@@ -2142,7 +2142,7 @@ instance SVM_12(C_SVM)
 	KillEnemy = "SVM_12_KillEnemy";	//I'll skewer you, bastard!
 	EnemyKilled = "SVM_12_EnemyKilled";	//That's it for you...
 	MonsterKilled = "SVM_12_MonsterKilled";	//I love this shit!
-	Addon_MonsterKilled = "SVM_12_Addon_MonsterKilled";	//
+	Addon_MonsterKilled = "SVM_12_Addon_MonsterKilled";	//ONE less monster around!
 	ThiefDown = "SVM_12_ThiefDown";	//I'm warning you! Don' try that again, you dirty thief!
 	RumfummlerDown = "SVM_12_rumfummlerDown";	//From now on, keep your paws off stuff that isn't yours!
 	SheepAttackerDown = "SVM_12_SheepAttackerDown";	//And stay away from our sheep from now on!
@@ -2299,13 +2299,13 @@ instance SVM_12(C_SVM)
 	Aargh_1 = "SVM_12_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_12_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_12_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_12_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_12_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_12_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_12_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_12_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_12_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_12_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_12_Addon_WrongArmor";	//Your clothes just don't suit you. First, go change.
+	addon_wrongarmor_sld = "SVM_12_ADDON_WRONGARMOR_SLD";	//Wear your armor if you want to talk to me.
+	addon_wrongarmor_mil = "SVM_12_ADDON_WRONGARMOR_MIL";	//A soldier wears the armor of the King. NOT something else! So go change.
+	addon_wrongarmor_kdf = "SVM_12_ADDON_WRONGARMOR_KDF";	//Your clothing is not appropriate for our order. Go and change.
+	addon_noarmor_bdt = "SVM_12_ADDON_ADDON_NOARMOR_BDT";	//You can't even afford any armor. I don't talk to weaklings.
+	addon_diebandit = "SVM_12_ADDON_DIEBANDIT";	//I'll tear you to pieces, bandit!
+	addon_dirtypirate = "SVM_12_ADDON_DIRTYPIRATE";	//I'll tear you to pieces, pirate!
 };
 
 instance SVM_13(C_SVM)
@@ -2486,13 +2486,13 @@ instance SVM_13(C_SVM)
 	Aargh_1 = "SVM_13_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_13_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_13_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_13_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_13_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_13_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_13_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_13_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_13_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_13_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_13_Addon_WrongArmor";	//What kind of clothes are those? They don't suit you at all. Leave me alone.
+	addon_wrongarmor_sld = "SVM_13_ADDON_WRONGARMOR_SLD";	//You aren't wearing your armor. Go and fetch it.
+	addon_wrongarmor_mil = "SVM_13_ADDON_WRONGARMOR_MIL";	//You should be proud to wear the armor of the King, rather than running around in these rags. Now, go!
+	addon_wrongarmor_kdf = "SVM_13_ADDON_WRONGARMOR_KDF";	//Why aren't you wearing the clothing of our order? Go and think upon this.
+	addon_noarmor_bdt = "SVM_13_ADDON_ADDON_NOARMOR_BDT";	//You haven't even got any armor. Beat it!
+	addon_diebandit = "SVM_13_ADDON_DIEBANDIT";	//You filthy bandit!
+	addon_dirtypirate = "SVM_13_ADDON_DIRTYPIRATE";	//You miserable pirate!
 };
 
 instance SVM_14(C_SVM)
@@ -2673,31 +2673,31 @@ instance SVM_14(C_SVM)
 	Aargh_1 = "SVM_14_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_14_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_14_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_14_Addon_WrongArmor";	//
-	addon_wrongarmor_sld = "SVM_14_ADDON_WRONGARMOR_SLD";	//
-	addon_wrongarmor_mil = "SVM_14_ADDON_WRONGARMOR_MIL";	//
-	addon_wrongarmor_kdf = "SVM_14_ADDON_WRONGARMOR_KDF";	//
-	addon_noarmor_bdt = "SVM_14_ADDON_ADDON_NOARMOR_BDT";	//
-	addon_diebandit = "SVM_14_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_14_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_14_Addon_WrongArmor";	//Your clothes don't suit you. You must have something to hide. Leave me alone.
+	addon_wrongarmor_sld = "SVM_14_ADDON_WRONGARMOR_SLD";	//If you want to talk to me, you have to wear our armor.
+	addon_wrongarmor_mil = "SVM_14_ADDON_WRONGARMOR_MIL";	//Be proud of the army and don't run around in those rags. First, go change.
+	addon_wrongarmor_kdf = "SVM_14_ADDON_WRONGARMOR_KDF";	//Your clothing is not appropriate for our order. Go and change.
+	addon_noarmor_bdt = "SVM_14_ADDON_ADDON_NOARMOR_BDT";	//You haven't even got any armor. Beat it!
+	addon_diebandit = "SVM_14_ADDON_DIEBANDIT";	//Die, bandit.
+	addon_dirtypirate = "SVM_14_ADDON_DIRTYPIRATE";	//Die, pirate.
 };
 
 instance SVM_15(C_SVM)
 {
 	SC_HeyTurnAround = "SVM_15_SC_HeyTurnAround";	//Hey, you!
-	SC_HeyTurnAround02 = "SVM_15_SC_HeyTurnAround02";	//Hey, you!
-	SC_HeyTurnAround03 = "SVM_15_SC_HeyTurnAround03";	//Hey!
-	SC_HeyTurnAround04 = "SVM_15_SC_HeyTurnAround04";	//Hey!
+	SC_HeyTurnAround02 = "SVM_15_SC_HeyTurnAround02";	//Hey!
+	SC_HeyTurnAround03 = "SVM_15_SC_HeyTurnAround03";	//
+	SC_HeyTurnAround04 = "SVM_15_SC_HeyTurnAround04";	//
 	SC_HeyWaitASecond = "SVM_15_SC_HeyWaitASecond";	//Wait a minute!
 	DoesntWork = "SVM_15_DoesntWork";	//Doesn't work.
 	PickBroke = "SVM_15_PickBroke";	//Hm, it broke.
 	NeedKey = "SVM_15_NeedKey";	//I need the key for that ...
-	NoMorePicks = "SVM_15_NoMorePicks";	//No more lockpicks ...
+	NoMorePicks = "SVM_15_NoMorePicks";	//No more lock picks ...
 	NoPickLockTalent = "SVM_15_NoPickLockTalent";	//I know nothing about picking locks.
 	NoSweeping = "SVM_15_NoSweeping";	//Sweeping all the chambers will take forever!
-	picklockorkeymissing = "SVM_15_PICKLOCKORKEYMISSING";	//Hm ... I don't have a lockpick or the key.
+	picklockorkeymissing = "SVM_15_PICKLOCKORKEYMISSING";	//Hm ... I don't have a lock pick or the key.
 	keymissing = "SVM_15_KEYMISSING";	//I'll never get this open without the right key!
-	picklockmissing = "SVM_15_PICKLOCKMISSING";	//A few lockpicks would be helpful!
+	picklockmissing = "SVM_15_PICKLOCKMISSING";	//A few lock picks would be helpful!
 	neveropen = "SVM_15_NEVEROPEN";	//I'll never be able to open this thing!
 	missingitem = "SVM_15_MISSINGITEM";	//What with?
 	dontknow = "SVM_15_DONTKNOW";	//Hmm ... No ...
@@ -2714,28 +2714,28 @@ instance SVM_15(C_SVM)
 	heallastshrine = "SVM_15_HEALLASTSHRINE";	//Innos, grant me your aid and all that ... There. That ought to be the last time.
 	scopensirdorathbook = "SVM_15_SCOPENSIRDORATHBOOK";	//XARAK BENDARDO! Ah. The book's open. There's a letter and a key hidden inside.
 	scopenslastdoor = "SVM_15_SCOPENSLASTDOOR";	//KHADOSH EMEM KADAR! Open!
-	trade_1 = "SVM_15_Addon_TRADE_1";	//
-	trade_2 = "SVM_15_Addon_TRADE_2";	//
-	trade_3 = "SVM_15_Addon_TRADE_3";	//
-	verstehe = "SVM_15_Addon_VERSTEHE";	//
-	foundtreasure = "SVM_15_Addon_FOUNDTREASURE";	//
-	cantunderstandthis = "SVM_15_Addon_CANTUNDERSTANDTHIS";	//
-	cantreadthis = "SVM_15_Addon_CANTREADTHIS";	//
-	stoneplate_1 = "SVM_15_Addon_STONEPLATE_1";	//
-	stoneplate_2 = "SVM_15_Addon_STONEPLATE_2";	//
-	stoneplate_3 = "SVM_15_Addon_STONEPLATE_3";	//
-	cough = "SVM_15_Addon_COUGH";	//
-	hui = "SVM_15_Addon_HUI";	//
-	attentat_addon_description = "SVM_15_ATTENTAT_ADDON_DESCRIPTION";	//
-	attentat_addon_description2 = "SVM_15_ATTENTAT_ADDON_DESCRIPTION2";	//
-	attentat_addon_pro = "SVM_15_ATTENTAT_ADDON_PRO";	//
-	attentat_addon_contra = "SVM_15_ATTENTAT_ADDON_CONTRA";	//
-	mine_addon_description = "SVM_15_MINE_ADDON_DESCRIPTION";	//
-	addon_summonancientghost = "SVM_15_ADDON_SUMMONANCIENTGHOST";	//
-	addon_ancientghost_notnear = "SVM_15_ADDON_ANCIENTGHOST_NOTNEAR";	//
-	addon_gold_description = "SVM_15_ADDON_GOLD_DESCRIPTION";	//
-	Addon_ThisLittleBastard = "SVM_15_Addon_ThisLittleBastard";	//
-	addon_openadanostemple = "SVM_15_Addon_OPENADANOSTEMPLE";	//
+	trade_1 = "SVM_15_Addon_TRADE_1";	//Let's deal.
+	trade_2 = "SVM_15_Addon_TRADE_2";	//Show me your wares.
+	trade_3 = "SVM_15_Addon_TRADE_3";	//Show me what you have.
+	verstehe = "SVM_15_Addon_VERSTEHE";	//I see.
+	foundtreasure = "SVM_15_Addon_FOUNDTREASURE";	//Ah. I think I've found something.
+	cantunderstandthis = "SVM_15_Addon_CANTUNDERSTANDTHIS";	//I don't understand...
+	cantreadthis = "SVM_15_Addon_CANTREADTHIS";	//I can't read that!
+	stoneplate_1 = "SVM_15_Addon_STONEPLATE_1";	//AKHANTAR!
+	stoneplate_2 = "SVM_15_Addon_STONEPLATE_2";	//JHERHEDRA!
+	stoneplate_3 = "SVM_15_Addon_STONEPLATE_3";	//URIZIEL RATIS!
+	cough = "SVM_15_Addon_COUGH";	//(cough) Oh, man. Brrr!!
+	hui = "SVM_15_Addon_HUI";	//Oh oh oh!
+	attentat_addon_description = "SVM_15_ATTENTAT_ADDON_DESCRIPTION";	//What do you know about the attempt on Esteban's life?
+	attentat_addon_description2 = "SVM_15_ATTENTAT_ADDON_DESCRIPTION2";	//About the attack on Esteban...
+	attentat_addon_pro = "SVM_15_ATTENTAT_ADDON_PRO";	//I'll kill those traitors.
+	attentat_addon_contra = "SVM_15_ATTENTAT_ADDON_CONTRA";	//I'm looking for those guys so I can move against Esteban.
+	mine_addon_description = "SVM_15_MINE_ADDON_DESCRIPTION";	//You're needed in the mine.
+	addon_summonancientghost = "SVM_15_ADDON_SUMMONANCIENTGHOST";	//Ighoriat Thorul. Appear to me, Quarhodron, ancient leader of the warrior caste!
+	addon_ancientghost_notnear = "SVM_15_ADDON_ANCIENTGHOST_NOTNEAR";	//Mmh... That doesn't work here.
+	addon_gold_description = "SVM_15_ADDON_GOLD_DESCRIPTION";	//What do I have to know about mining gold?
+	Addon_ThisLittleBastard = "SVM_15_Addon_ThisLittleBastard";	//Aha. Francis' paybook. The man seems to have finagled a lot of gold into his own pockets.
+	addon_openadanostemple = "SVM_15_Addon_OPENADANOSTEMPLE";	//JHERHEDRA AKHANTAR!
 };
 
 instance SVM_16(C_SVM)
@@ -2907,9 +2907,9 @@ instance SVM_16(C_SVM)
 	Aargh_1 = "SVM_16_Aargh_1";	//Aargh
 	Aargh_2 = "SVM_16_Aargh_2";	//Aargh
 	Aargh_3 = "SVM_16_Aargh_3";	//Aargh
-	addon_wrongarmor = "SVM_16_Addon_WrongArmor";	//
-	addon_diebandit = "SVM_16_ADDON_DIEBANDIT";	//
-	addon_dirtypirate = "SVM_16_ADDON_DIRTYPIRATE";	//
+	addon_wrongarmor = "SVM_16_Addon_WrongArmor";	//Put on something decent. I don't want to see you like that.
+	addon_diebandit = "SVM_16_ADDON_DIEBANDIT";	//A BANDIT!
+	addon_dirtypirate = "SVM_16_ADDON_DIRTYPIRATE";	//A PIRATE!
 };
 
 instance SVM_17(C_SVM)

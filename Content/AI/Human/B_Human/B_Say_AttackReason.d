@@ -2,6 +2,7 @@
 func void B_Say_AttackReason()
 {
 	var int rnd;
+	var int random;
 	if((Wld_GetGuildAttitude(self.guild,other.guild) != ATT_HOSTILE) && (Npc_GetAttitude(self,other) == ATT_HOSTILE))
 	{
 		if(self.aivar[AIV_ATTACKREASON] == AR_KILL)
@@ -23,12 +24,44 @@ func void B_Say_AttackReason()
 		};
 		if(other.guild < GIL_SEPERATOR_HUM)
 		{
-			B_Say_Overlay(self,other,"$DIEENEMY");
-			Npc_SendPassivePerc(self,PERC_ASSESSFIGHTSOUND,self,other);
+			if(C_PlayerIsFakeBandit(self,other) == TRUE)
+			{
+				B_Say_Overlay(self,other,"$ADDON_DIEBANDIT");
+				Npc_SendPassivePerc(self,PERC_ASSESSFIGHTSOUND,self,other);
+			}
+			else if(C_PlayerIsFakePirate(self,other) == TRUE)
+			{
+				B_Say_Overlay(self,other,"$ADDON_DIRTYPIRATE");
+				Npc_SendPassivePerc(self,PERC_ASSESSFIGHTSOUND,self,other);
+			}
+			else
+			{
+				B_Say_Overlay(self,other,"$DIEENEMY");
+				Npc_SendPassivePerc(self,PERC_ASSESSFIGHTSOUND,self,other);
+			};
 		}
 		else
 		{
-			B_Say_Overlay(self,other,"$DIEMONSTER");
+			if(self.voice == 9)
+			{
+				random = Hlp_Random(3);
+				if(random < 1)
+				{
+					B_Say_Overlay(self,other,"$DIEMONSTER");
+				}
+				else if(random == 1)
+				{
+					B_Say_Overlay(self,other,"$ADDON_DIEMONSTER");
+				}
+				else
+				{
+					B_Say_Overlay(self,other,"$ADDON_DIEMONSTER2");
+				};
+			}
+			else
+			{
+				B_Say_Overlay(self,other,"$DIEMONSTER");
+			};
 			Npc_SendPassivePerc(self,PERC_ASSESSFIGHTSOUND,self,other);
 		};
 		return;

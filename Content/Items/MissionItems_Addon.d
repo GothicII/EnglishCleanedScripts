@@ -39,22 +39,22 @@ func void Use_SaturasFirstMessage()
 	Doc_Show(nDocID);
 	if((Use_SaturasFirstMessage_OneTime == FALSE) && (MIS_Addon_Cavalorn_Letter2Vatras != LOG_SUCCESS))
 	{
-		//Log_CreateTopic(TOPIC_Addon_KDW,LOG_MISSION);
-		//Log_SetTopicStatus(TOPIC_Addon_KDW,LOG_Running);
-		//B_LogEntry(TOPIC_Addon_KDW,"I took a message that Cavalorn was supposed to deliver to the Water Mage Vatras from a bandit. Now it is my task.");
+		Log_CreateTopic(TOPIC_Addon_KDW,LOG_MISSION);
+		Log_SetTopicStatus(TOPIC_Addon_KDW,LOG_Running);
+		B_LogEntry(TOPIC_Addon_KDW,"I took a message that Cavalorn was supposed to deliver to the Water Mage Vatras from a bandit. Now it is my task.");
 		Use_SaturasFirstMessage_OneTime = TRUE;
 	};
 	if(SC_KnowsRanger == FALSE)
 	{
-		//Log_CreateTopic(TOPIC_Addon_RingOfWater,LOG_MISSION);
-		//Log_SetTopicStatus(TOPIC_Addon_RingOfWater,LOG_Running);
-		//Log_AddEntry(TOPIC_Addon_RingOfWater,"There is a community that calls itself the 'Ring of Water'. The Water Mages seem to be the commanders of this community.");
+		Log_CreateTopic(TOPIC_Addon_RingOfWater,LOG_MISSION);
+		Log_SetTopicStatus(TOPIC_Addon_RingOfWater,LOG_Running);
+		Log_AddEntry(TOPIC_Addon_RingOfWater,"There is a community that calls itself the 'Ring of Water'. The Water Mages seem to be the commanders of this community.");
 	};
 	if(SC_IsRanger == FALSE)
 	{
-		//Log_CreateTopic(TOPIC_Addon_RingOfWater,LOG_MISSION);
-		//Log_SetTopicStatus(TOPIC_Addon_RingOfWater,LOG_Running);
-		//Log_AddEntry(TOPIC_Addon_RingOfWater,"Cavalorn belongs to the 'Ring of Water'.");
+		Log_CreateTopic(TOPIC_Addon_RingOfWater,LOG_MISSION);
+		Log_SetTopicStatus(TOPIC_Addon_RingOfWater,LOG_Running);
+		Log_AddEntry(TOPIC_Addon_RingOfWater,"Cavalorn belongs to the 'Ring of Water'.");
 	};
 	SC_KnowsRanger = TRUE;
 };
@@ -315,9 +315,9 @@ func void Use_RavensKidnapperMission_Addon()
 	var int nDocID;
 	if((Use_RavensKidnapperMission_Addon_OneTime == FALSE) && (MIS_Addon_Vatras_WhereAreMissingPeople != 0))
 	{
-		//Log_CreateTopic(TOPIC_Addon_WhoStolePeople,LOG_MISSION);
-		//Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople,LOG_Running);
-		//B_LogEntry(TOPIC_Addon_WhoStolePeople,"Now I have it in writing. Raven, the former ore baron, is behind the kidnapping of the citizens of Khorinis. Raven's hideout is somewhere behind the mountains in the northeast of Khorinis. Vatras should see this document.");
+		Log_CreateTopic(TOPIC_Addon_WhoStolePeople,LOG_MISSION);
+		Log_SetTopicStatus(TOPIC_Addon_WhoStolePeople,LOG_Running);
+		B_LogEntry(TOPIC_Addon_WhoStolePeople,"Now I have it in writing. Raven, the former ore baron, is behind the kidnapping of the citizens of Khorinis. Raven's hideout is somewhere behind the mountains in the northeast of Khorinis. Vatras should see this document.");
 		Use_RavensKidnapperMission_Addon_OneTime = TRUE;
 	};
 	SCKnowsMissingPeopleAreInAddonWorld = TRUE;
@@ -408,9 +408,9 @@ instance ItWr_LuciasLoveLetter_Addon(C_Item)
 func void Use_LuciasLoveLetter_Addon()
 {
 	var int nDocID;
-	//Log_CreateTopic(TOPIC_Addon_Lucia,LOG_MISSION);
-	//Log_SetTopicStatus(TOPIC_Addon_Lucia,LOG_Running);
-	//B_LogEntry(TOPIC_Addon_Lucia,"Lucia wrote a farewell letter to Elvrich. That should interest him.");
+	Log_CreateTopic(TOPIC_Addon_Lucia,LOG_MISSION);
+	Log_SetTopicStatus(TOPIC_Addon_Lucia,LOG_Running);
+	B_LogEntry(TOPIC_Addon_Lucia,"Lucia wrote a farewell letter to Elvrich. That should interest him.");
 	MIS_LuciasLetter = LOG_Running;
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,1);
@@ -542,7 +542,7 @@ func void Use_ItWr_Addon_BanditTrader()
 	Doc_Show(nDocID);
 	if((MIS_Vatras_FindTheBanditTrader != 0) && (Use_ItWr_Addon_BanditTrader_OneTime == FALSE))
 	{
-		//B_LogEntry(TOPIC_Addon_Bandittrader,"I found a document that can prove that Fernando is the weapons dealer I am looking for.");
+		B_LogEntry(TOPIC_Addon_Bandittrader,"I found a document that can prove that Fernando is the weapons dealer I am looking for.");
 		Use_ItWr_Addon_BanditTrader_OneTime = TRUE;
 	};
 };
